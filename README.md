@@ -1,0 +1,3 @@
+- Hi! i'm b4ld3gn1k 
+- I write Group Bot for Vk
+- This is my Pet-Project

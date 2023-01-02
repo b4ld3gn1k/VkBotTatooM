@@ -20,19 +20,25 @@ public class ButtonsToUser {
 
         button.add(new KeyboardButton()
                 .setAction(new KeyboardButtonAction()
-                        .setLabel("Помощь")
+                        .setLabel("Работы мастера")
                         .setType(TemplateActionTypeNames.TEXT))
                 .setColor(KeyboardButtonColor.PRIMARY));
 
         button.add(new KeyboardButton()
                 .setAction(new KeyboardButtonAction()
-                        .setLabel("Запись")
+                        .setLabel("Записаться на сеанс")
                         .setType(TemplateActionTypeNames.TEXT))
                 .setColor(KeyboardButtonColor.PRIMARY));
 
         locationButton.add(new KeyboardButton()
                 .setAction(new KeyboardButtonAction()
-                        .setLabel("Где находится студия")
+                        .setLabel("Основы по заживлению")
+                        .setType(TemplateActionTypeNames.TEXT))
+                .setColor(KeyboardButtonColor.DEFAULT));
+
+        locationButton.add(new KeyboardButton()
+                .setAction(new KeyboardButtonAction()
+                        .setLabel("Адресс студии")
                         .setType(TemplateActionTypeNames.TEXT))
                 .setColor(KeyboardButtonColor.POSITIVE));
 

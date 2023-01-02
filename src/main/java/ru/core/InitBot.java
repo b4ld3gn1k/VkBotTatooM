@@ -11,10 +11,10 @@ import com.vk.api.sdk.queries.messages.MessagesGetLongPollHistoryQuery;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ru.message.MessageTree;
+import ru.portfolio.Portfolio;
 
 import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
 
 public class InitBot {
@@ -29,10 +29,12 @@ public class InitBot {
 
     MessageTree msgTree = new MessageTree();
 
-    public void testMsg() throws ClientException, ApiException, InterruptedException {
+    public void startBot() throws ClientException, ApiException, InterruptedException {
         logger = LogManager.getRootLogger();
 
         Integer ts = vk.messages().getLongPollServer(userActor).execute().getTs();
+
+
 
         while (true) {
 
@@ -54,4 +56,5 @@ public class InitBot {
                     + "Отправленное сообщение: " + message.getText() + " | "
                     + "Время отправки сообщения: " + new Date(System.currentTimeMillis())));
     }
+
 }

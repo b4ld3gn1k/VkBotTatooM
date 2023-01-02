@@ -1,0 +1,68 @@
+2022-12-26T00:11:57.091+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:34) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.testMsg(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T00:51:49.146+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:71) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:20) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:43) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T00:54:04.134+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:71) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:20) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:41) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T00:56:39.507+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:70) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:41) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T01:24:28.244+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiServerException: Internal server error (10): Internal server error
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:28) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.core.InitBot.startBot(InitBot.java:39) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T01:24:32.602+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiServerException: Internal server error (10): Internal server error
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:28) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.core.InitBot.startBot(InitBot.java:39) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T01:24:36.195+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiServerException: Internal server error (10): Internal server error
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:28) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.core.InitBot.startBot(InitBot.java:45) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2022-12-26T01:24:38.257+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiServerException: Internal server error (10): Internal server error
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:28) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.core.InitBot.startBot(InitBot.java:45) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]

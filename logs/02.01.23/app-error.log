@@ -1,0 +1,100 @@
+2023-01-02T23:07:52.633+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:42) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:22) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:41) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:08:23.061+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:61) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:22) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:41) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:08:41.282+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:41) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:22) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:41) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:17:52.470+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:33) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:17:56.338+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:40) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:22:53.446+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiGroupAuthException: Group authorization failed (27): Group authorization failed: method is unavailable with group auth.
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:64) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:25) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:24:21.373+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:42) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:24:24.108+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:54) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:24:26.756+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiMessagesKeyboardInvalidException: Keyboard format is invalid (911): Keyboard format is invalid: buttons property should be array
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:336) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:35) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]
+2023-01-02T23:24:28.130+0600 ERROR API error
+com.vk.api.sdk.exceptions.ApiGroupAuthException: Group authorization failed (27): Group authorization failed: method is unavailable with group auth.
+	at com.vk.api.sdk.exceptions.ExceptionMapper.parseException(ExceptionMapper.java:64) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.executeWithoutRetry(ApiRequest.java:104) ~[sdk-1.0.14.jar:?]
+	at com.vk.api.sdk.client.ApiRequest.execute(ApiRequest.java:79) ~[sdk-1.0.14.jar:?]
+	at ru.message.MessageTree.lambda$messageTree$0(MessageTree.java:25) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at ru.message.MessageTree.messageTree(MessageTree.java:19) ~[classes/:?]
+	at ru.core.InitBot.startBot(InitBot.java:42) ~[classes/:?]
+	at ru.Start.main(Start.java:9) ~[classes/:?]

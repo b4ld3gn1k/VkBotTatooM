@@ -3,6 +3,7 @@ package ru.message;
 import com.vk.api.sdk.client.VkApiClient;
 import com.vk.api.sdk.client.actors.UserActor;
 import com.vk.api.sdk.objects.messages.Message;
+import ru.portfolio.Portfolio;
 
 import java.util.List;
 import java.util.Random;
@@ -13,28 +14,50 @@ public class MessageTree {
 
     public void messageTree(VkApiClient vkApi, UserActor actor, List<Message> messageList) {
 
-
+        Portfolio portfolio = new Portfolio();
         Random random = new Random();
 
         messageList.forEach(message -> {
             try {
                 switch (message.getText().toLowerCase()) {
-                    case "помощь" -> vkApi.messages().send(actor)
-                            .message("Тебе нужна помощь?\nЭто я быстро подожди секунду...")
+                    case "работы мастера" -> {
+                        vkApi.messages().send(actor)
+                                .message("""
+                                        Загружаю работы...
+                                        """)
+                                .userId(message.getFromId())
+                                .randomId(random.nextInt(10000))
+                                .execute();
+                        portfolio.getWorks(vkApi, actor, message.getFromId());
+                        vkApi.messages()
+                                .send(actor).message("Ну как работы?\uD83D\uDE0A\nПонравились?\uD83D\uDE0A\uD83D\uDE4F")
+                                .userId(message.getFromId())
+                                .randomId(random.nextInt(10000))
+                                .keyboard(buttons.getKeyboard())
+                                .execute();
+                    }
+
+                    case "адресс студии" -> vkApi.messages().send(actor)
+                            .message("Студия находится вот здесь")
                             .userId(message.getFromId())
                             .randomId(random.nextInt(10000))
                             .keyboard(buttons.getKeyboard())
                             .execute();
 
-                    case "где находится студия" -> vkApi.messages().send(actor)
-                            .message("Вот тут находится студия")
-                            .userId(message.getFromId())
-                            .randomId(random.nextInt(10000))
-                            .keyboard(buttons.getKeyboard())
-                            .execute();
-
-                    case "запись" -> vkApi.messages().send(actor)
+                    case "записаться на сеанс" -> vkApi.messages().send(actor)
                             .message("Сейчас посмотрим какие даты свободные...")
+                            .userId(message.getFromId())
+                            .randomId(random.nextInt(10000))
+                            .keyboard(buttons.getKeyboard())
+                            .execute();
+
+                    case "основы по заживлению" -> vkApi.messages().send(actor)
+                            .message("""
+                                    Вот основыные правила по уходу за татуировкой:
+                                    1. ...
+                                    2. ...
+                                    3. ...
+                                    4. ...""")
                             .userId(message.getFromId())
                             .randomId(random.nextInt(10000))
                             .keyboard(buttons.getKeyboard())
@@ -56,14 +79,14 @@ public class MessageTree {
                     }
                     default -> {
                         if (buttons.getKeyboard().getButtons() == null) {
-                            buttons.setStartKeyboard();
+                            buttons.setActionKeyboard();
                         }
                         vkApi.messages().send(actor)
                                 .message("""
-                                        Привет ✌
-                                        Нажми ".start" и мы начнем \uD83D\uDE09
+                                        Я не совсем понял тебя 😥
+                                        Выбери пожалуйста из предложенного списка
                                         """)
-                                .keyboard(buttons.getStartKeyboard())
+                                .keyboard(buttons.getKeyboard())
                                 .userId(message.getFromId())
                                 .randomId(random.nextInt(10000))
                                 .execute();
